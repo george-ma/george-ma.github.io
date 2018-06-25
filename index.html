@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="George's Website"/>
+  <meta name="keywords" content="Resume, UofT">
+  <meta name="author" content="George Ma"/>
+
+  <title>George Ma</title>
+
+  <!-- CSS -->
+  <link href="assets/main.css" rel="stylesheet" media="all">
+
+  <!-- FontAwesome -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+  <!-- Favicon -->
+  <link href="assets/logo.png" rel="icon">
+</head>
+
+    
+<body>
+    
+	<section class="root fade-in">
+    <img src="assets/logo.png" class="main-icon invert"></img>
+  
+    <div class="content">
+      <span class="summary-text">Hey, I'm George.</span>
+      <span class="summary-text">Currently building my expertise on a variety of Web Technologies. </span>
+      <span class="summary-text">Worked the past two summers as a Software Engineer at 
+        <u><a target="_blank" href="https://evertz.com/">Evertz</a></u> on the 
+        <u><a target="_blank" href="https://evertz.com/applications/big-data-analytics/">inSITE</a></u> /
+        <u><a target="_blank" href="https://evertz.com/applications/cloud-hybrid-playout/">Overture</a></u> teams.</span>
+      <span class="summary-text">Computer Science student at the <u><a target="_blank" href="https://www.utoronto.ca">University of Toronto</a></u>.</span>
+      <span class="summary-text">Huge Toronto Raptors fan <span class="fa fa-dribbble"></span>.</span>
+    </div>
+  
+    <span class="contact-icons">
+      <a target="_blank" href="https://www.linkedin.com/in/georgema-">
+          <img class="contact-icon" src="assets/icons/linkedin-icon.png"></img>
+      </a>
+      <a target="_blank" href="mailto:george.ma@mail.utoronto.ca">
+          <img class="contact-icon" src="assets/icons/email-icon.png"></img>
+      </a>
+      <a target="_blank" href="https://www.github.com/george-ma">
+          <img class="contact-icon" src="assets/icons/github-icon.png"></img>
+      </a>
+      <a target="_blank" href="#">
+          <img class="contact-icon" src="assets/icons/cv-icon.png"></img>
+      </a>
+      <a target="_blank" href="https://instagram.com/georgema_/">
+          <img class="contact-icon" src="assets/icons/instagram-icon.png"></img>
+      </a>
+    </span>
+    <span class="accent-text location">Toronto, Canada</span>
+    <span class="accent-text year" id="year"></span>
+  </section>
+
+  <script>
+    document.getElementById("year").innerHTML = '© ' + new Date().getFullYear();
+  </script>
+</body>
+
+</html>
